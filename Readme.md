@@ -4,14 +4,6 @@ Necessária pré configuração das seguintes tecnologias:
 node: 8.4.0 ( ou superior)
 npm 5.3.0 ( ou superior)
 
-Projeto consiste nas seguintes Critérios:
-1.1. - Fazer uma tela de login, que irá se autenticar em uma api que retornará o token.
-1.2. - Criar uma tela que irá fazer uma listagem qualquer (por exemplo produto), e
-esta tela só pode ser acessada se o usuário tiver o token de autenticação
-antes, essa listagem deverá vir de uma api que deverá receber e validar o
-token antes de devolver a listagem.
-1.3. Caso o token esteja expirado deverá ser redirecionado para a tela de login.
-
 API DISPONIVEL EM:
 https://github.com/CamilaNachbar/api-jwt-final/
 
